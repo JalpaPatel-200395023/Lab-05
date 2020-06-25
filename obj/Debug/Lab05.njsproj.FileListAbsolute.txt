@@ -1,0 +1,2 @@
+D:\Users\Vicious Friend\Downloads\Lab-05\obj\Debug\Lab05.njsproj.CoreCompileInputs.cache
+D:\Users\Vicious Friend\Downloads\Lab-05\bin\Microsoft.NodejsTools.WebRole.dll
