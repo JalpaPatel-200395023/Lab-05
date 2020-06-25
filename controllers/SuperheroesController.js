@@ -74,7 +74,7 @@ exports.update = async (req, res) => {
     try {
 
         await Superhero.validate(req.body);
-        await Superhero.updateOne(req.body);
+        await Superhero.findByIdAndUpdate(req.body.id,req.body);
 
         req.flash('success', 'This hero was updated successfully');
         res.redirect(`/superheroes/${req.body.id}`);
